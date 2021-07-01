@@ -17,4 +17,4 @@ db.connect();
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-app.listen(3001,()=>console.log('Running successfully on http://localhost:3000'));
+app.listen(3000,()=>console.log('Running successfully on http://localhost:3000'));
